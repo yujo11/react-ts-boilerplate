@@ -1,7 +1,5 @@
 import React from "react";
 
-const App = () => {
-  return <div>React + TypeScript + Webpack!</div>;
-};
+const App = (): JSX.Element => <h1>test</h1>;
 
 export default App;
