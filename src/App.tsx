@@ -1,5 +1,5 @@
-import Styles from "./App.styles";
+import Button from "./Button/Button";
 
-const App = (): JSX.Element => <Styles.Button>Styled Components</Styles.Button>;
+const App = (): JSX.Element => <Button text="App" />;
 
 export default App;

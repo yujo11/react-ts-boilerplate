@@ -30,4 +30,13 @@ module.exports = {
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off",
   },
+  overrides: [
+    {
+      files: "**/*.stories.tsx",
+      rules: {
+        "import/no-extraneous-dependencies": "off",
+        "react/jsx-props-no-spreading": "off",
+      },
+    },
+  ],
 };
