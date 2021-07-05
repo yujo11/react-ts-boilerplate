@@ -1,5 +1,5 @@
-import React from "react";
+import Styles from "./App.styles";
 
-const App = (): JSX.Element => <h1>test</h1>;
+const App = (): JSX.Element => <Styles.Button>Styled Components</Styles.Button>;
 
 export default App;

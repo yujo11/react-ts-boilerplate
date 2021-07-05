@@ -14,6 +14,11 @@ module.exports = () => {
     resolve: {
       extensions: [".ts", ".tsx", ".js", ".jsx"],
     },
+    devServer: {
+      port: 3000,
+      hot: true,
+    },
+    devtool: isDevelopment ? "eval-source-map" : "source-map",
     module: {
       rules: [
         {
