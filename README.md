@@ -77,12 +77,12 @@ npx tsc --init
 
 - tsconfig.json 파일 수정
 
-```json
+```
 {
   "compilerOptions": {
     ...
-
-    "jsx": "react-jsx" /* Specify JSX code generation: 'preserve', 'react-native', 'react', 'react-jsx' or 'react-jsxdev'. */,
+  
+    "jsx": "react-jsx", /* Specify JSX code generation: 'preserve', 'react-native', 'react', 'react-jsx' or 'react-jsxdev'. */
 
     ...
   }
